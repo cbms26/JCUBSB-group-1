@@ -1,4 +1,4 @@
-name: WordPress Theme CI/CD
+name: WordPress Theme CI
 
 on:
   push:
@@ -10,7 +10,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -20,13 +19,12 @@ jobs:
     - name: Set up PHP
       uses: shivammathur/setup-php@v2
       with:
-        php-version: '7.4'
+        php-version: '5.6' 
 
-    - name: Setup Node.js environment
+    - name: Setup Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '14'
-
+        node-version: '14'  
     - name: Install PHP dependencies
       run: composer install
       working-directory: ./jcubsa_theme
@@ -43,20 +41,25 @@ jobs:
       run: composer lint
       working-directory: ./jcubsa_theme
 
-    - name: Run tests
-      run: npm run test
+    - name: Run SCSS lint
+      run: npm run lint:scss
+      working-directory: ./jcubsa_theme
+
+    - name: Run JavaScript lint
+      run: npm run lint:js
       working-directory: ./jcubsa_theme
 
   deploy:
     runs-on: ubuntu-latest
     needs: build
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Deploy to Staging
+    - name: Deploy to server
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         KNOWN_HOSTS: ${{ secrets.KNOWN_HOSTS }}
       run: |
-        ssh -i $SSH_PRIVATE_KEY -o StrictHostKeyChecking=no user@your-staging-server "cd /path-to-your-theme && git pull origin main && composer install && npm install && npm run build"
+        ssh -i $SSH_PRIVATE_KEY -o StrictHostKeyChecking=no user@your-server "cd /path/to/your/theme && git pull origin main && composer install && npm install && npm run build"

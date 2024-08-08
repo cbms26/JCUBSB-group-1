@@ -162,6 +162,7 @@ Upload images from past events to the NextGEN Gallery plugin:
 
 ### Installed Plugins
 1. **WPForms** insert contact form,feedback form,join us form.
+2. **The Events calendar** Manage and display events and event calendars
 
 ### Adding New Plugins
 1. Navigate to `Plugins > Add New`.
@@ -262,6 +263,4 @@ Check the plugin settings for performance optimization options.
 4. **Limit Login Attempts:** Configure the site to limit login attempts to prevent brute force attacks.
 5. **SSL Certificate:** Ensure the site uses an SSL certificate to encrypt data transmission.
 
----
 
-This format includes a table of contents with links to each section, making navigation easy and efficient.

@@ -172,7 +172,7 @@ Upload images from past events to the NextGEN Gallery plugin:
 
 ### Plugin Management
  **WPForms**
-**Adding a Form:**
+
 1. Navigate to: WPForms > Add New.
 2. Choose a Template: Select from pre-built templates or start with a blank form.
 3. Build the Form: Drag and drop fields to customize your form.

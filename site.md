@@ -162,7 +162,7 @@ Upload images from past events to the NextGEN Gallery plugin:
 
 ### Installed Plugins
 1. **WPForms** insert contact form,feedback form,join us form.
-2. **Popup maker** 
+2. **Popup maker** disply join now form and feedback form.
 3. **The Events calendar** Manage and display events and event calendars
 
 ### Adding New Plugins

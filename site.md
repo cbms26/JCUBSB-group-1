@@ -171,8 +171,14 @@ Upload images from past events to the NextGEN Gallery plugin:
 4. After installation, click `Activate` to enable the plugin.
 
 ### Plugin Management
-
-**Smart Slider:**
+1. **WPForms**
+**Adding a Form:**
+Navigate to: WPForms > Add New.
+Choose a Template: Select from pre-built templates or start with a blank form.
+Build the Form: Drag and drop fields to customize your form.
+Settings: Configure general settings, notifications, and confirmations.
+Save & Embed: Click "Save". To add the form to a page or post, copy the shortcode provided and paste it into the desired location.
+2. **Smart Slider:**
 **Steps to Use Smart Slider Plugin**
 **Installation:**
 **WordPress:**

@@ -50,9 +50,7 @@ This document provides instructions for managing the JCUBSB website. It includes
 ## Managing Plugins
 
 ### Installed Plugins
-- **Contact Form 7:** For creating and managing contact forms.
-- **Yoast SEO:** For optimizing the site’s search engine visibility.
-- **UpdraftPlus:** For scheduling backups of the site.
+-**WPForms**
 
 ### Adding New Plugins
 1. Navigate to `Plugins > Add New`.

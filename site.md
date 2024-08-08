@@ -7,6 +7,7 @@ This document provides instructions for managing the JCUBSB website. It includes
 1. [Adding New Content](#adding-new-content)
     - [Pages](#pages)
     - [Posts](#posts)
+    - [Events](#events)
     - [Media](#media)
 2. [Managing Plugins](#managing-plugins)
     - [Installed Plugins](#installed-plugins)

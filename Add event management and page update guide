@@ -171,14 +171,41 @@ Upload images from past events to the NextGEN Gallery plugin:
 
 ### Plugin Management
 
- **WPForms** 
+**Smart Slider:**
+**Steps to Use Smart Slider Plugin**
+**Installation:**
+**WordPress:**
+1. Log in to your WordPress dashboard
+2. Navigate to Plugins > Add New
+3. In the search bar, type "Smart Slider"
+4. Click Install Now on the Smart Slider plugin and then Activate
+    
+**Creating a New Slider:**
+1. Go to the Smart Slider dashboard in your admin panel.
+2. Click on New Project or New Slider.
+3. Choose a template or start from scratch.
+4. Use the drag-and-drop interface to add layers (text, images, buttons, etc.) to your slides.
+5. Customize the appearance and animations of each layer as needed.
+    
+**Configuring Slider Settings:**
+1. Configure settings such as slider size, autoplay options, navigation controls, and more.
+2. Ensure the slider is responsive by adjusting settings for different screen sizes.
+    
+**Publishing the Slider:**
+Save your slider and copy the provided shortcode or module code.
 
-1. Navigate to: WPForms > Add New.
-2. Choose a Template: Select from pre-built templates or start with a blank form.
-3. Build the Form: Drag and drop fields to customize your form.
-4. Settings: Configure general settings, notifications, and confirmations.
-5. Save & Embed: Click "Save". To add the form to a page or post, copy the shortcode provided and paste it into the desired location.
+**WordPress:**
+Paste the shortcode into the page, post, or widget where you want the slider to appear.
 
+**Managing Sliders:**
+
+Return to the Smart Slider dashboard to edit existing sliders or create new ones.
+Use the plugin's options to duplicate, delete, or rearrange sliders as needed.
+
+**Optimizing Performance:**
+
+Ensure your sliders are optimized for speed by using properly sized images and minimal animations.
+Check the plugin settings for performance optimization options.
 
 ## Theme Customization
 

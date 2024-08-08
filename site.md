@@ -50,7 +50,7 @@ This document provides instructions for managing the JCUBSB website. It includes
 ## Managing Plugins
 
 ### Installed Plugins
--**WPForms**
+1. **WPForms** insert contact form,feedback form,join us form.
 
 ### Adding New Plugins
 1. Navigate to `Plugins > Add New`.
@@ -59,6 +59,14 @@ This document provides instructions for managing the JCUBSB website. It includes
 4. After installation, click `Activate` to enable the plugin.
 
 ### Plugin Management
+
+1. **WPForms**
+**Adding a Form:**
+Navigate to: WPForms > Add New.
+Choose a Template: Select from pre-built templates or start with a blank form.
+Build the Form: Drag and drop fields to customize your form.
+Settings: Configure general settings, notifications, and confirmations.
+Save & Embed: Click "Save". To add the form to a page or post, copy the shortcode provided and paste it into the desired location.
 1. Navigate to `Plugins > Installed Plugins`.
 2. View all installed plugins and their statuses (active/inactive).
 3. Update plugins regularly to ensure security and compatibility.

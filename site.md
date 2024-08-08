@@ -179,6 +179,17 @@ Upload images from past events to the NextGEN Gallery plugin:
 4. Settings: Configure general settings, notifications, and confirmations.
 5. Save & Embed: Click "Save". To add the form to a page or post, copy the shortcode provided and paste it into the desired location.
 
+   **Create a Popup in Popup Maker:**
+
+1. Navigate to Popup Maker > Add Popup.
+2. Title your popup and configure the settings.
+3. In the popup editor, add the WPForms shortcode:
+shortcode
+eg. [wpforms id="your_form_id"]
+3. Customize the popup appearance and settings.
+4. Save the popup.
+
+
    
  **Smart Slider:**
 **Steps to Use Smart Slider Plugin**

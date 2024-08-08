@@ -60,8 +60,7 @@ This document provides instructions for managing the JCUBSB website. It includes
 
 ### Plugin Management
 
-1. **WPForms**
-**Adding a Form:**
+ **WPForms** click on WPForms
 
 1. Navigate to: WPForms > Add New.
 2. Choose a Template: Select from pre-built templates or start with a blank form.

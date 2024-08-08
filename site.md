@@ -62,15 +62,13 @@ This document provides instructions for managing the JCUBSB website. It includes
 
 1. **WPForms**
 **Adding a Form:**
-Navigate to: WPForms > Add New.
-Choose a Template: Select from pre-built templates or start with a blank form.
-Build the Form: Drag and drop fields to customize your form.
-Settings: Configure general settings, notifications, and confirmations.
-Save & Embed: Click "Save". To add the form to a page or post, copy the shortcode provided and paste it into the desired location.
-1. Navigate to `Plugins > Installed Plugins`.
-2. View all installed plugins and their statuses (active/inactive).
-3. Update plugins regularly to ensure security and compatibility.
-4. Deactivate and delete plugins that are no longer needed.
+
+1. Navigate to: WPForms > Add New.
+2. Choose a Template: Select from pre-built templates or start with a blank form.
+3. Build the Form: Drag and drop fields to customize your form.
+4. Settings: Configure general settings, notifications, and confirmations.
+5. Save & Embed: Click "Save". To add the form to a page or post, copy the shortcode provided and paste it into the desired location.
+
 
 ## Theme Customization
 

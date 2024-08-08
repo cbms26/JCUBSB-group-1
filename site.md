@@ -179,7 +179,7 @@ Upload images from past events to the NextGEN Gallery plugin:
 4. Settings: Configure general settings, notifications, and confirmations.
 5. Save & Embed: Click "Save". To add the form to a page or post, copy the shortcode provided and paste it into the desired location.
 
-   **Create a Popup in Popup Maker:**
+**Create a Popup in Popup Maker:**
 
 1. Navigate to Popup Maker > Add Popup.
 2. Title your popup and configure the settings.

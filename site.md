@@ -39,6 +39,8 @@ This document provides instructions for managing the JCUBSB website. It includes
 5. Set a featured image to represent the post visually.
 6. Preview the post and click `Publish` to make it live.
 
+### Events (Using Events Calender plugin)
+
 ### Media
 1. Navigate to `Media > Add New`.
 2. Upload images, videos, and other media files.

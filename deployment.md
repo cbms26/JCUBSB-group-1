@@ -12,7 +12,7 @@
 1. **Clone the Repository:**
 - From cmd or git bash, run the following command:
   ```bash
-  git clone https://github.com/YourUsername/JCUBSB-group-1.git
+  git clone https://github.com/cbms26/JCUBSB-group-1.git
   ```
 2. **Set Up Local Environment:**
 - Launch Local by Flywheel (or any other preferred) and follow the setup wizards to create a 'New Site' 

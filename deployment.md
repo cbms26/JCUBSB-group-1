@@ -27,12 +27,12 @@
 1. **Branching**
 - **Main Branch** consists the production code
 - **Staging Branch** used for testing the features of site before sending to main.
-3. **Commit Messages**
+2. **Commit Messages**
 - Use well-defined messages. For instance,
   ```bash
   git commit -m "Added home-loader"
   ```
-5. **Pull Requests**
+3. **Pull Requests**
 - All merging should be done to *main*
 
 ## Testing
@@ -42,10 +42,19 @@
 
 ## Staging and Production Development
 1. **Staging Process**
--
-2. **Production Process**
--
+- Push and commit changes from the local development environment to the staging branch on GitHub.
+- Review the code and conduct tests in the staging environment to ensure everything is functioning as expected.
 
-## Team Communication and Collaboration
-- **Slack:**
-- **Github Projects:**
+2. **Production Process**
+- Once the staging tests are successful, merge the staging branch into the `main` branch.
+- Deploy the `main` branch to the production environment on AWS Lightsail.
+- Monitor the deployment for any issues and ensure that the site is live and functioning correctly.
+
+### Team Communication and Collaboration
+1. **Slack**: 
+- Use Slack for real-time communication, project updates, and issue tracking.
+- Channels for development, testing, and deployment should be established for better coordination.
+
+2. **GitHub Projects**: 
+- Utilize GitHub Projects to track tasks, manage issues, and monitor the progress of the development cycle.
+- Assign tasks to team members, set deadlines, and track milestones to ensure timely delivery of the project.

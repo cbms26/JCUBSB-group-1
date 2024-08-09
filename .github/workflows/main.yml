@@ -19,7 +19,7 @@ jobs:
     - name: Set up PHP
       uses: shivammathur/setup-php@v2
       with:
-        php-version: '5.6' 
+        php-version: '8' 
 
     - name: Setup Node.js
       uses: actions/setup-node@v2
@@ -62,4 +62,4 @@ jobs:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         KNOWN_HOSTS: ${{ secrets.KNOWN_HOSTS }}
       run: |
-        ssh -i $SSH_PRIVATE_KEY -o StrictHostKeyChecking=no user@your-server "cd /path/to/your/theme && git pull origin main && composer install && npm install && npm run build"
+        ssh -i $SSH_PRIVATE_KEY -o StrictHostKeyChecking=no bitnami@3.25.225.192 "cd /opt/bitnami/wordpress/wp-content/themes/jcubsa_theme && git pull origin main && composer install && npm install && npm run build"

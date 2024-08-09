@@ -1,9 +1,10 @@
 # JCUBSB Theme Development Guide
 
 ## Overview
-This document provides essential information for a new developer to continue developing the JCUBSB theme. It includes details about the theme's features, files that may need editing, design decisions, colors, and other relevant information.
+This document provides essential information for a new developer to continue developing the JCUBSB theme. It includes details about the theme's features, files that may need editing, design decisions, and other relevant information.
 
 ## Features
+- **Hamburger menu:** Fullscreen hamburger menu adaptable to any screen size
 - **Custom Post Types:** Events and News
 - **Custom Widgets:** Recent Posts, Social Media Links, Upcoming Events
 - **Responsive Design:** Mobile-friendly and adaptable to various screen sizes
@@ -29,11 +30,6 @@ This document provides essential information for a new developer to continue dev
   - Dark Blue: `#004085`
   - Light Gray: `#e2e6ea`
 
-### Typography
-- **Fonts:**
-  - Primary Font: Arial, sans-serif
-  - Secondary Font: Georgia, serif
-
 ### Layout
 - **Responsive Grid:** Utilizes a flexible grid system for responsiveness.
 - **Header and Footer:** Clean and simple design for easy navigation and branding.
@@ -45,11 +41,7 @@ The theme includes several options in the WordPress Customizer:
 - **Header Settings:** Adjust header layout and background.
 - **Footer Settings:** Add custom footer text and social media links.
 
-## Additional Information
-- **Localization:** The theme is translation-ready and includes a `.pot` file in the `languages` directory.
-- **SEO Optimization:** Basic SEO optimizations with HTML5 semantics, meta tags, and schema markup.
 
----
 
 This `theme.md` provides the essential information needed for a new developer to understand and continue developing the JCUBSB theme.
 

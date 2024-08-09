@@ -11,7 +11,7 @@
 
 <div class="home-page-loader-wrapper">
     <div class="loader">
-        <img src="http://jcubsa.local/wp-content/uploads/2024/07/JCUBSB-logo.png" alt="Logo">
+        <img src="http://3.25.225.192/wp-content/uploads/2024/07/JCUBSB-logo.png" alt="Logo">
     </div>
 </div>
 
@@ -25,7 +25,7 @@
             </div>
             <div class="logo-image">
                 <a href="<?php echo home_url('/'); ?>">
-                    <img src="http://jcubsa.local/wp-content/uploads/2024/07/JCUBSB-logo.png" alt="Logo">
+                    <img src="http://3.25.225.192/wp-content/uploads/2024/07/JCUBSB-logo.png" alt="header-logo">
                 </a>
             </div>
             <div class="logo">
@@ -39,14 +39,21 @@
         </div>
     </header>
         
-    <nav class="fullscreen-menu" id="fullscreen-menu">
-        <?php
-            wp_nav_menu(array(
-                'theme_location' => 'main-1',
-                'menu_class' => '',
-                'container' => 'ul',
-            ));
-        ?>
-    </nav>
+<nav class="fullscreen-menu" id="fullscreen-menu">
+    <span class="close-menu" id="close-menu">&times;</span>
+	<!-- logo image  -->
+    <div class="nav-logo-container">
+        <img src="http://3.25.225.192/wp-content/uploads/2024/07/JCUBSB-logo.png" alt="Navigation Logo" class="nav-logo">
+    </div>
+    <?php
+        wp_nav_menu(array(
+            'theme_location' => 'main-1',
+            'menu_class' => '',
+            'container' => 'ul',
+        ));
+    ?>
+</nav>
+
+
 
     <main class="site-main">

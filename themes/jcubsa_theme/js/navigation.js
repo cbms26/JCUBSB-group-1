@@ -60,24 +60,44 @@
  * Custom script for handling hamburger menu toggle.
  */
 document.addEventListener('DOMContentLoaded', function() {
+    const siteHeader = document.querySelector('.site-header');
+    const logoImage = document.querySelector('.logo-image img');
     const hamburger = document.getElementById('hamburger');
     const fullscreenMenu = document.getElementById('fullscreen-menu');
     const closeMenu = document.getElementById('close-menu');
 
+    // Handling shrinking header
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 100) {
+            siteHeader.classList.add('shrink');
+            logoImage.style.height = '50px';
+        } else {
+            siteHeader.classList.remove('shrink');
+            logoImage.style.height = '90px';
+        }
+    });
+
+    // Handling hamburger menu toggle
     hamburger.addEventListener('click', function() {
         fullscreenMenu.classList.toggle('active');
         hamburger.classList.toggle('active');
     });
 
-    closeMenu.addEventListener('click', function() {
-        fullscreenMenu.classList.remove('active');
-        hamburger.classList.remove('active');
-    });
+    // Handling close button in fullscreen menu
+    if (closeMenu) {
+        closeMenu.addEventListener('click', function() {
+            fullscreenMenu.classList.remove('active');
+            hamburger.classList.remove('active');
+        });
+    }
 
+    // Close menu when clicking outside of it
     document.addEventListener('click', function(event) {
-        if (!fullscreenMenu.contains(event.target) && !hamburger.contains(event.target)) {
+        if (!fullscreenMenu.contains(event.target) && !hamburger.contains(event.target) && !event.target.matches('#close-menu')) {
             fullscreenMenu.classList.remove('active');
             hamburger.classList.remove('active');
         }
     });
 });
+
+

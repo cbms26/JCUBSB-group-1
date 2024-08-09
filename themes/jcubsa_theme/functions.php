@@ -98,6 +98,12 @@ function enqueue_google_fonts() {
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_google_fonts' );
 
+/*Font Awesome*/
+function jcubsa_theme_enqueue_styles() {
+    wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+}
+add_action('wp_enqueue_scripts', 'jcubsa_theme_enqueue_styles');
+
 ?>
 
 
